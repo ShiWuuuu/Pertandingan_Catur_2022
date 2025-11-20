@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #24252A;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+	text-align: center;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 15px 25px;
+	color: white;
+}
+.footer{
+	position: relative;
+  	text-align: center;
+    top: 10px;
+}
+.intro{
+	position: relative;
+  	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-image: url(Images/ChineseChessSet3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    filter: contrast(50%) brightness(50%);
+}
+.logo {
+	cursor: pointer;
+	font-size: 25px;
+	margin-right: auto;
+}
+.nav_links{
+	list-style: none;
+}
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+	color: #0088a9;
+}
+button {
+	padding: 12px 30px;
+	background-color: #4d80e4;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+	button:hover {
+		background-color: #46b3e6;
+	}
+.bil {
+	text-align: center;
+	font-size: 40px;
+}
+.bil p{
+	font-size: 100px;
+	color: darkorange;
+}
+h3{
+	font-size: 40px;
+}
+h2{
+	font-size: 20px;
+}
+.center {
+  margin: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #edf0f1;
+}
+h4{
+  font-size: 90px;
+}
+.info{
+	font-size: 20px;
+}
+li {
+	list-style-type: square;
+	text-align: left;
+	padding: 10px 37%;
+}
