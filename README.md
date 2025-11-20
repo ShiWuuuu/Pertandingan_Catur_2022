@@ -1,4 +1,4 @@
-🏆 Pertandingan Catur – Chess Tournament Management System (PHP) [2022 Project]
+🏆 Pertandingan Catur – Chess Tournament Management System (PHP) [2022 Form 5 Individual Project]
 A web-based system for managing chess competitions with two user roles: Peserta (Participant) and Hakim (Judge). The system allows participants to view their results, while judges can manage participants, update scores, and track school-based performance.
 
 ✨ Features
